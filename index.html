@@ -41,22 +41,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 }
             };
         }
-
-        var redirect = throttle(function () {
-            var finalUrl = urls[Math.floor(Math.random() * urls.length)];
-            gtag("event", "purchase", {
-				'url': getTimeInUTC8() + "--" + finalUrl
-			});
-            gtag_report_conversion(finalUrl);
-        }, 5000);
     </script>
 <script type="text/javascript" async="" src="static/js/f.js"></script></head>
 
 <body style="background-color: #EEF8FF;">
+	
 	<!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KW6Q2JVS"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
+	
     <div class="box" style="max-width: 450px;margin: 0 auto;">
         <div style="clear: both;" class="bor"></div>
         <div style="display: block" class="content1">
@@ -112,5 +106,4 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </script>
     
 </body>
-<!-- Mirrored from www.hkeww.com/jp1/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 07 Jan 2025 09:58:01 GMT -->
 </html>
